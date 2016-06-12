@@ -1,0 +1,1 @@
+<li><a href="{{ .Permalink }}">{{ if eq .Params.timeless "true" }}{{ else }}{{ .Date.Format "20060102" }} {{ end }}{{ .Title }}{{ if .Draft }}_DRAFT{{end}}</a> <span>{{ if eq .Params.timeless "false" }}{{ .ReadingTime }} min{{end}}</span>

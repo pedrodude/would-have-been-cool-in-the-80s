@@ -1,0 +1,10 @@
+	<footer>
+		<div class="whbcit8_footertext">
+			<ul class="whbcit8_hiddenbullets">
+				{{ if .Site.Params.copyrightstatement }}<li>{{ .Site.Params.copyrightstatement }}</li>{{ end }}
+				<li>Last Modified: {{ if eq .Params.coolinthe80slastmod "YYYYMMDD"}} {{ .Date.Format "20060102" }} {{ else }} {{ .Params.coolinthe80slastmod }}</li> {{ end }}
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

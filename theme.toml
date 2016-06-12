@@ -1,0 +1,13 @@
+name = "Would have been cool in the 80s"
+license = "MIT"
+licenselink = "https://github.com/pedrodude/would-have-been-cool-in-the-80s/LICENSE.md"
+description = "A minimalist slightly-retro theme"
+homepage = "https://github.com/pedrodude/would-have-been-cool-in-the-80s"
+tags = ["minimal", "blog", "product", "personal", "responsive", "starter"]
+features = ["feature-light for easy customisation", "blog post or standard content driven by frontmatter", "about link"]
+min_version = 0.14
+
+[author]
+  name = "Peter Carleton"
+  homepage = "http://pedrodude.com"
+

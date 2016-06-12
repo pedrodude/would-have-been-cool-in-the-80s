@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+<body>
+	{{ partial "header.html" . }}
+	<div class="centered_block">
+		<article class="whbcit8_border whbcit8_borderradius whbcit8_yellowborder">
+			<section class="whbcit8_title1 center_justified">
+				<span> {{ .Site.Title }} <span class = "whbcit8_yellow">{{ .Params.streamtitle }}</span></span>
+			</section>
+			<section>
+				<span class="whbcit8_title2">{{ if eq .Params.timeless "true" }}{{ else }}{{ .Date.Format "2006 January" }}: {{ end }}<span class = "whbcit8_yellow">{{.Title }}</span></span>
+				{{.Content}}
+			</section>
+		</article>
+	{{ partial "footer.html" . }}
+	</div>
+</body>
+</html>

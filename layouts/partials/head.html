@@ -1,0 +1,13 @@
+<!-- TK present -->
+<!DOCTYPE html>
+<html>
+    <head>
+
+        {{ partial "meta.html" . }}
+
+        <title>{{ .Site.Title }} {{ .Site.Params.siteclass }}, {{ .Site.Params.author }}</title>
+        <link rel="canonical" href="{{ .Permalink }}"> <!-- TK think this is fine -->
+        <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/> <!-- TK need to check-->
+
+        {{ partial "head_includes.html" . }}
+    </head>
