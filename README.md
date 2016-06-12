@@ -83,16 +83,9 @@ Is [Hugo](http://gohugo.io) itself a dependency?  I don't know what I'm supposed
 
 The default configuration uses a rather nice geometric sans-serif font called [Montserrat](https://www.google.com/fonts/specimen/Montserrat) hosted by Google Fonts.
 
-## And how I set it up
+## Supporting Infrastructure
 
-This is the least relevant part of the readme but I've included it as I think Hugo hasn't really made clear the benefits of using a Static-Site Generator (or Static CMS) such as Hugo.  Perhaps because the issue is bigger than them.  In my opinion these platforms are still too intimidating for most people to feel comfortable attempting.
-
-So how about some advice from an idiot; yours truly.  My requirements were:
-* Low-cost (cheaper than a typical hosted solution)
-* Relatively simple (i.e. no programming or any other complex technical setup)
-* High-level of control (i.e. no artificial limitations from the platform)
-
-Here are some brief notes on the setup I found works best.  The skills you need are the ability to read the instructions and a bit of batch scripting [to use S3.exe]:
+And since this is a sort of starter theme from a starter aimed at starters; here's the "stack" of products that I'm using.  The skills you need to use these are the ability to read the instructions and a bit of batch scripting [to use S3.exe]:
 - Domain from [Gandi.net](http://gandi.net)
 - DNS routing provided by [Amazon Route 53](https://aws.amazon.com/route53/)
 - Storage provided by [Amazon S3](https://aws.amazon.com/s3/)
