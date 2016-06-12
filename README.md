@@ -1,5 +1,3 @@
-TK present
-
 would have been cool in the 80s
 ===============================
 
