@@ -1,0 +1,13 @@
+#Adjust all settings that start with TK to customise this theme to your site.  Also remove the TK
+theme = "would-have-been-cool-in-the-80s"
+baseurl = "http://examplesite.com"
+languageCode = "en-us"
+title = "WHBCIT8"
+
+[params]
+  aboutpage = "examplesiteabout" #This makes the "about" link in the header function.  It must be the exact filename of your about page without the file extension.  E.g. if your about page is called "mysiteabout.md" then enter in "mysiteabout"
+  author = "Peter Carleton" #Goes in the meta info of your webpage to help identify you as the author of the content
+  copyrightstatement = "A copyright statement of your choosing." #Will appear in the footer of each page.
+  description = "A description that will appear in the html meta" #Goes in the meta info of your webpage to describe the content of your site
+  siteclass = "Example Site" #Optional.  If you set it, it will display a subtitle in a contrasting color (adjustable within the CSS) on the site's index page.
+  tagline = "A theme made for Hugo" #Optional.  If you set it, it will display a tagline for the website underneath the titles.  By default it appears italicized.
