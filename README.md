@@ -18,7 +18,7 @@ A live site using this theme: [socratic.space](http://socratic.space) (warning: 
 
 ## Screenshot
 
-![WHBCIT8 screenshot](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "WHBCIT8 screenshot")
+![WHBCIT8 screenshot](https://raw.githubusercontent.com/pedrodude/would-have-been-cool-in-the-80s/master/images/screenshot.png "WHBCIT8 screenshot")
 
 ## Installation
 
