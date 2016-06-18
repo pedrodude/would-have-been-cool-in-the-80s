@@ -9,6 +9,13 @@
 			<section class="whbcit8_tagline center_justified">
 				<span>{{ .Site.Params.tagline }}</span>
 			</section>
+			{{ range where .Data.Pages ".Params.timeless" "indexintro" }}
+				{{ if eq .Title "indexintro" }}
+				<section id="indexintro">
+						{{ .Content }}
+				</section>
+				{{ end }}
+			{{ end }}
 			{{if lt 0 (len (where .Data.Pages ".Params.timeless" "=" "true"))}}
 			<section id="post_index">
 				<span class="whbcit8_title2">Pages:</span>

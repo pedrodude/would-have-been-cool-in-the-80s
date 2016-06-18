@@ -46,6 +46,15 @@ title = "TK MY SITE'S TITLE"
 ```
 ---
 
+### Indexintro.md
+
+To add in some introductory spiel to the index page, create a markdown document in your content folder with the following in your toml frontmatter:
+```toml
+timeless = "indexintro"
+title = "indexintro"
+```
+To keep it simple there's no repositioning of the page index; so perhaps keep this bit short so as not to push the index too far down the page.
+
 ### CSS
 
 The CSS is adapted from [HTML5 Boilerplate](http://gohugo.io).  Just a few layout and color tweaks.  There are some override styles and a few custom ones prefixed with "whbcit8".  In terms of font choice: geometric sans-serifs, monospace, and perhaps even slab serifs all seem to work fine.
@@ -62,7 +71,7 @@ Page configuration is largely unchanged from the default but there are some addi
 streamtitle="" #Optional.  If you set it, it will display a subtitle in a contrasting color (adjustable within the CSS) on the individual page.
 timeless = "false" #Optional.  If you set it, it will determine whether the post displays date features (displaying a date on the post summary on the index page, date in the page title).  Changing the value to true suppresses all of these features, with the exception of the last modified date shown by the pedrolastmod parameter
 draft=true
-pedrolastmod="YYYYMMDD" #Optional.  If you set it, it will display a Last Modified Date under the footer.  This is not automated at all, nor formatted, but simply provides a basic ability to indicate that the creation date differs from the modified date.  If left unchanged, it will display the created date.
+coolinthe80slastmod="YYYYMMDD" #Optional.  If you set it, it will display a Last Modified Date under the footer.  This is not automated at all, nor formatted, but simply provides a basic ability to indicate that the creation date differs from the modified date.  If left unchanged, it will display the created date.
 +++
 
 LOREM IPSUM PAGE CONTENT GOES HERE
