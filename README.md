@@ -26,7 +26,7 @@ Generic installation instructions are [here](https://gohugo.io/themes/installing
 
 ### Site configuration
 
-To "make it yours" (even though we all know this theme is *mine*), change the bits of the following toml file that start with TK (and get rid of the TK)
+To "make it yours" (even though we all know this theme is *mine*), change the bits of the following config.toml file that start with TK (and get rid of the TK)
 
 ---
 ```toml
@@ -53,7 +53,7 @@ To add in some introductory spiel to the index page, create a markdown document 
 timeless = "indexintro"
 title = "indexintro"
 ```
-To keep it simple there's no repositioning of the page index; so perhaps keep this bit short so as not to push the index too far down the page.
+To keep things simple there's no repositioning of the page index; so perhaps keep this bit short so as not to push the index too far down the page.
 
 ### CSS
 
@@ -63,7 +63,7 @@ That's about it.  I could have done more I'm sure with pagination and all that c
 
 ### Individual page configuration
 
-Page configuration is largely unchanged from the default but there are some additional bits in the archetype (the template that defines default page settings) which enable additional features.  It's explained in the comments in the toml file below.
+Page configuration is largely unchanged from the default but there are some additional bits in the archetype (the template that defines default page settings) which enable additional features.  It's explained in the comments in the template for your page frontmatter below.
 
 ---
 ```toml
