@@ -4,8 +4,8 @@
     <head>
 
         {{ partial "meta.html" . }}
-
-        <title>{{ .Site.Title }} {{ .Site.Params.siteclass }}, {{ .Site.Params.author }}</title>
+		
+		<title>{{ .Site.Title }}{{ if (gt (len .Site.Params.siteclass) 0) }}{{ (print " " .Site.Params.siteclass) }}{{ end }}{{ if (gt (len .Site.Params.author) 0) }}{{ (print ", " .Site.Params.author)}}{{ end }}</title>
         <link rel="canonical" href="{{ .Permalink }}"> <!-- TK think this is fine -->
         <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/> <!-- TK need to check-->
 
