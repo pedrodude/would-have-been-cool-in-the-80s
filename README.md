@@ -12,7 +12,7 @@ The theme was inspired by the following geometric shapes to whom all credit is o
 * All right-angled quadrilaterals
 * The fillet (but not the chamfer)
 
-A live site using this theme: [socratic.space](http://socratic.space) (warning: it's terrible)
+~~A live site using this theme: [socratic.space](http://socratic.space) (warning: it's terrible)~~ Aaaand that site is soooo down now!  Not because of technical issues, no sir!  I just didn't want that domain any more (it sounded stupid, but you knew that).  Wow, guess you'll just have to trust me, a random person on the internet, instead.  Yikes.
 
 ## Screenshot
 
